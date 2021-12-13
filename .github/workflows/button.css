@@ -1,0 +1,22 @@
+//rounded corner and negatice hover button//
+.button {
+    color: #fff;
+    background-color: #ff6926;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 13px 25px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+.button:focus, .button:hover {
+    color: #ff6926;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5) inset, 0 0 10px 5px #ff6926;
+}
+.button:active:after {
+  width: 300px;
+  height: 300px;
+}
+//ends here//
